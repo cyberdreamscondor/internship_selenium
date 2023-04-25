@@ -1,0 +1,34 @@
+Checklist
+
+>> Automation for the sake of automation.
+Test choices are not nitpicky but I am :)
+
+>> Login Only With Admin-admin123
+never set passwords for other users: data gets deleted, eveything fails in a little while
+
+
+
+* All widgets are present.
+    if not, refresh & recheck BUT refreshing the page may change user currently logged in.
+    let's not refresh, doesn't make sense here.
+
+
+Time at work widget:
+--------------------
+
+* stopwatch button leads to 'Attendance' -> taking into consideration this is a practice site,
+first read the widget attendace details then make sure correspondant 'attendance' page(punch in/out) opens.
+Normally there's some data stored about the user and it is reflected on the widget, but that data is
+completely uncontrollable.
+
+* all elements located, default data is correct
+
+* impossible to 'punch in/out' without obligatory data
+* click'n'type everything on date/time input fields then 'Punch in/out'
+* widget attendance details show latest actoin with correct info
+* working hours for today == <current time> - <punched in>
+* chart shows correct data
+* resize window, check widget behavior
+
+
+
